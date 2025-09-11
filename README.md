@@ -30,6 +30,7 @@ python tp1_2.py
 Con respecto a la pregunta si es conveniente usar histogramas como features para clasificar una imagen, la respuesta es que **se puede usar**, pero hay que tener en cuenta que en un histograma **se pierde toda la información espacial** de la imagen. Es decir, se podrían tener dos imágenes con el mismo histograma pero con contenido completamente diferente, como se observa en la **Figura 1**.
 
 ![Comparación de histogramas](results/histogramas_tp1.png)
+
 *Figura 1: Dos imágenes completamente diferentes con histogramas idénticos*
 
 **No lo recomendaría** para tareas de clasificación de imágenes, ya que hay otras técnicas que preservan mejor la información espacial como la operación de convolución con filtros. Estas pueden capturar características locales y patrones en la imagen, lo que es crucial para tareas de clasificación.
