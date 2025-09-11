@@ -57,7 +57,7 @@ Esta primera implementación no trabajaba con los casos borde, como por ejemplo 
 
 Por último, con ayuda de un agente en Copilot, se implementó una versión que como primer paso hace una clasificación de la imagen con la media y desviación estándar del brillo y la saturación, para luego aplicar el método más adecuado según la clasificación. Los resultados a simple vista se ven buenos, pero no diría que son mejores que las versiones anteriores, como se muestra en la **Figura 4**.
 
-![Comparación de whitepathching](results/wp2_green_comparison.png)
-![Comparación de whitepathching](results/wp2_red_comparison.png)
-![Comparación de whitepathching](results/wp2_blue_comparison.png)
+![Comparación de whitepathching](results/wp_green2_comparison.png)
+![Comparación de whitepathching](results/wp_red2_comparison.png)
+![Comparación de whitepathching](results/wp_blue_comparison.png)
 *Figura 4: Resultados del algoritmo White Patch inteligente con clasificación automática*
